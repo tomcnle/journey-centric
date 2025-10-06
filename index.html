@@ -5,46 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Journey-Centric - Community of Practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
 </head>
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex items-center justify-center p-4">
-    <div class="max-w-4xl w-full">
-        <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center">
-            <div class="mb-8">
-                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-                    Journey-Centric
-                </h1>
-                <div class="w-24 h-1 bg-indigo-600 mx-auto mb-6"></div>
-                <p class="text-xl md:text-2xl text-gray-600 font-light">
-                    A Community of Practice for Journey-Centric Work
-                </p>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-2xl w-full">
+        <main class="bg-white border border-gray-200 p-12 text-center">
+            <div class="flex items-center justify-center gap-3 md:gap-4 mb-8 md:mb-10">
+                <div class="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 bg-gray-900 rounded-lg flex-shrink-0">
+                    <span class="text-white font-bold text-base md:text-lg tracking-tight">jc</span>
+                </div>
+                <div class="text-left">
+                    <h1 class="text-2xl md:text-4xl font-light text-gray-900 tracking-tight leading-tight">
+                        Journey-Centric
+                    </h1>
+                </div>
             </div>
 
-            <div class="my-12 py-8 border-t border-b border-gray-200">
-                <p class="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                    Join our community dedicated to understanding and improving customer journeys. 
-                    Share insights, learn best practices, and collaborate with professionals 
-                    passionate about journey-centric design and strategy.
-                </p>
-            </div>
+            <p class="text-sm md:text-base text-gray-600 leading-relaxed mb-6 md:mb-8 max-w-lg mx-auto">
+                A space for professionals dedicated to understanding and improving customer journeys through shared insights and collaborative learning.
+            </p>
 
-            <div class="mt-10">
-                <p class="text-gray-600 mb-4 text-lg">Ready to get involved?</p>
-                <a 
-                    href="https://www.linkedin.com/in/tomconnole/" 
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-                >
-                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                    </svg>
-                    Connect with Tom Connole
-                </a>
-            </div>
-        </div>
+            <a
+                href="https://www.linkedin.com/in/tomconnole/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs md:text-sm text-gray-900 border border-gray-300 px-5 md:px-6 py-2 hover:bg-gray-50 transition-colors"
+            >
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                Connect with Tom Connole
+            </a>
+        </main>
 
-        <footer class="text-center mt-8 text-gray-600">
-            <p class="text-sm">© 2025 Journey-Centric Community</p>
+        <footer class="text-center mt-6">
+            <p class="text-xs text-gray-400">© 2025 Journey-Centric Community</p>
         </footer>
     </div>
 </body>
